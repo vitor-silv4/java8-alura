@@ -1,0 +1,15 @@
+import java.time.LocalDate;
+import java.time.Month;
+
+public class Datas {
+
+	public static void main(String[] args) {
+
+		LocalDate hoje = LocalDate.now();
+		System.out.println(hoje);
+		
+		LocalDate olimpiadas = LocalDate.of(2024, Month.JUNE, 5);
+		
+	}
+
+}
